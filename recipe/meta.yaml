@@ -1,5 +1,5 @@
 {% set name = "pytest-shell" %}
-{% set version = "0.2.3" %}
+{% set version = "0.3.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytest-shell-{{ version }}.tar.gz
-  sha256: 535178a527450371defbc00e542511300b6a8e3199abe537b31aae6eb3c94ded
+  sha256: f89a26a3b36b114a9148857101cda0744422fcb528de08311c7e2cdd8892e885
 
 build:
   number: 0
