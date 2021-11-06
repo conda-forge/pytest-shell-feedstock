@@ -27,7 +27,6 @@ requirements:
 test:
   imports:
     - pytest_shell
-    - pytest_shell.tests
   commands:
     - pip check
   requires:
